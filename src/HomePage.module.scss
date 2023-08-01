@@ -11,7 +11,7 @@
 
   p {
     font-family: 'lores-12', sans-serif;
-    font-size: 2rem;
+    font-size: inherit;
     line-height: 1.6;
     padding: 1em;
 
@@ -55,5 +55,15 @@
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .component {
+    font-size: 12px;
+  }
+
+  .component ul li {
+    font-size: 6em;
   }
 }
