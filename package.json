@@ -6,7 +6,6 @@
   "types": "dist/index.d.ts",
   "repository": "https://github.com/sone-dao/tone-react-page-home.git",
   "author": "Sone DAO <dev@sone.works>",
-  "license": "MIT",
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "rollup -c",
@@ -48,8 +47,7 @@
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
-    "@sone-dao/tone-react-api": "^0.16.0",
-    "@sone-dao/tone-react-core-ui": "^1.10.0",
+    "@sone-dao/tone-react-core-ui": "1.8.0",
     "next": "^13.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

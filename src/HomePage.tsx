@@ -3,9 +3,9 @@
 import { Page } from '@sone-dao/tone-react-core-ui'
 import styles from './HomePage.module.scss'
 
-interface IClientComponentProps {}
+interface IHomePageProps {}
 
-export default function ClientComponent({}: IClientComponentProps) {
+export default function HomePage({}: IHomePageProps) {
   return (
     <Page className={styles.component}>
       <p>
