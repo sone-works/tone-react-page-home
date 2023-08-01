@@ -1,0 +1,59 @@
+.component {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+
+  p {
+    font-family: 'lores-12', sans-serif;
+    font-size: 2rem;
+    line-height: 1.6;
+    padding: 1em;
+
+    span {
+      color: white;
+      background-color: black;
+      display: inline;
+      font-family: inherit;
+      font-size: inherit;
+      padding: 0 0.25em;
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+
+    li {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 50%;
+
+      i {
+        font-size: 8rem;
+      }
+
+      a {
+        color: inherit;
+        font-style: inherit;
+
+        &:hover {
+          position: absolute;
+          top: -4;
+        }
+
+        &:active {
+          position: absolute;
+          top: 4;
+        }
+      }
+    }
+  }
+}
