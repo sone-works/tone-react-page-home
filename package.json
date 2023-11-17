@@ -1,8 +1,7 @@
 {
   "name": "@sone-dao/tone-react-page-home",
   "version": "0.3.0",
-  "main": "dist/cjs/src/index.js",
-  "module": "dist/esm/src/index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/sone-dao/tone-react-page-home.git",
   "author": "Sone DAO <dev@sone.works>",
@@ -36,6 +35,7 @@
     "react-dom": "^18.2.0",
     "rollup": "^3.12.1",
     "rollup-plugin-analyze": "^0.3.0",
+    "rollup-plugin-banner2": "^1.2.2",
     "rollup-plugin-dts": "^5.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
@@ -46,13 +46,13 @@
     "typescript": "^4.9.5"
   },
   "peerDependencies": {
-    "@sone-dao/tone-react-core-ui": "1.8.0",
-    "next": "^13.4.3",
+    "next": "^14.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.13",
+    "@sone-dao/tone-react-core-ui": "1.8.0",
     "framer-motion": "^10.16.4"
   }
 }
