@@ -4,15 +4,9 @@ import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import dts from 'rollup-plugin-dts'
 import PeerDepsExternalPlugin from 'rollup-plugin-peer-deps-external'
-import postcss from 'rollup-plugin-postcss'
 import preserveDirectives from 'rollup-plugin-preserve-directives'
 
 const plugins = [
-  postcss({
-    extract: false,
-    modules: true,
-    use: ['sass'],
-  }),
   commonjs(),
   PeerDepsExternalPlugin(),
   resolve(),
