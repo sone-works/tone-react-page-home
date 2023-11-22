@@ -28,11 +28,8 @@
     "eslint": "^8.41.0",
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
-    "next": "^14.0.3",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "rollup": "^3.12.1",
     "rollup-plugin-analyze": "^0.3.0",
     "rollup-plugin-banner2": "^1.2.2",
@@ -53,7 +50,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.13",
-    "@sone-dao/tone-react-core-ui": "1.8.0",
+    "@sone-dao/tone-react-core-ui": "^2.2.0",
     "framer-motion": "^10.16.4"
   }
 }
