@@ -6,7 +6,7 @@
   "repository": "https://github.com/sone-dao/tone-react-page-home.git",
   "author": "Sone DAO <dev@sone.works>",
   "scripts": {
-    "prebuild": "rm -f ./dist",
+    "prebuild": "rm -f dist",
     "build": "rollup -c",
     "build:dev": "rollup -c",
     "lint": "yarn run eslint --ignore-path .gitignore --fix src/**/*",
