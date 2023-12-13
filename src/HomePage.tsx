@@ -1,11 +1,14 @@
+import { useState } from 'react'
+
 interface IHomePageProps {}
 
 export default function HomePage({}: IHomePageProps) {
+  const [testState, setTest] = useState<string>('')
   return (
-    <main className="flex flex-col justify-center items-center bg-[var(--global-lighter)] text-[var(--global-darker)] h-screen">
+    <main className="flex flex-col justify-center items-center bg-[var(--global-lighter)] text-[var(--global-darker)] h-full grow">
       <div className="max-w-md m-4">
         <p className="font-content text-xl">
-          <span className="font-release font-bold text-3xl">tone</span> is an
+          <span className="font-release font-bold text-4xl">tone</span> is an
           open source, artist & listener owned music listening service.
         </p>
         <p className="font-content text-xl my-4">
