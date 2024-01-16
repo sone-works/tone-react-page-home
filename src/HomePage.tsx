@@ -2,7 +2,7 @@ interface IHomePageProps {}
 
 export default function HomePage({}: IHomePageProps) {
   return (
-    <main className="flex bg-[var(--global-lighter)] text-[var(--global-darker)] h-full">
+    <main className="flex items-center justify-center bg-[var(--global-lighter)] text-[var(--global-darker)] h-full">
       <div className="max-w-md m-4">
         <p className="font-content text-xl">
           <span className="font-release font-bold text-4xl">tone</span> is an
