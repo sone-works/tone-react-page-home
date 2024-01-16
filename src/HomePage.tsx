@@ -2,7 +2,7 @@ interface IHomePageProps {}
 
 export default function HomePage({}: IHomePageProps) {
   return (
-    <main className="flex items-center justify-center bg-[var(--global-lighter)] text-[var(--global-darker)] h-full">
+    <div className="flex items-center justify-center bg-[var(--global-lighter)] text-[var(--global-darker)] h-full">
       <div className="max-w-md m-4">
         <p className="font-content text-xl">
           <span className="font-release font-bold text-4xl">tone</span> is an
@@ -30,6 +30,6 @@ export default function HomePage({}: IHomePageProps) {
           .
         </p>
       </div>
-    </main>
+    </div>
   )
 }
