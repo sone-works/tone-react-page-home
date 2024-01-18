@@ -8,8 +8,8 @@ export default function HomePage({}: IHomePageProps) {
       <Head>
         <title>Tone - Home</title>
       </Head>
-      <div className="flex items-center justify-center bg-[var(--global-lighter)] text-[var(--global-darker)] h-full">
-        <div className="max-w-md m-4">
+      <div className="flex flex-col items-center justify-center h-full w-full p-4 text-global">
+        <div className="max-w-lg m-4">
           <p className="font-content text-xl">
             <span className="font-release font-bold text-4xl">tone</span> is an
             open source, artist & listener owned music listening service.
